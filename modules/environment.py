@@ -3,7 +3,7 @@
 
 import os
 
-#get remote host environment value
+#返回木马所在主机的环境变量
 def run(**kwargs):
     print('This is environment module')
     return str(os.environ)
